@@ -6,27 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body bgcolor="11aaaa">
+<body bgcolor="#bbaaaa">
 
     <h1 style ="color: #1f3123; margin-left: 300px;">Simple Color Calculator</h1>
-    <div style="border: solid black 3px; margin: 100px; display: flex; justify-content: center;gap: 30px;">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>0</button>
-        <button type="submit">submit</button>
-        <br><br><br>
+
+    <!-- buttons  -->
+    <div class="buttons" style="border: solid black 3px; margin: 50px; display: flex; 
+    justify-content: center;gap: 30px; align-content: flex-start;">
+        <div style="gap: 5px;"><div><button style="background-color: #447733; margin-top: 5px;">1</button></div><br>
+        <div><button style="background-color: #987667;">2</button></div><br>
+        <div><button style="background-color: #afafbc; margin-bottom: 5px;">3</button></div></div>
+        <div style="gap: 5px;"><div><button style="background-color: #ff7733; margin-top: 5px;">4</button></div><br>
+        <div><button style="background-color: #1f12d6;">5</button></div><br>
+        <div><button style="background-color: #7788bc; margin-bottom: 5px;">6</button></div></div>
+        <div style="gap: 5px;"><div><button style="background-color: #db0e41; margin-top: 5px;">7</button></div><br>
+        <div><button style="background-color: #126790;">8</button></div><br>
+        <div><button style="background-color: #affbc9; margin-bottom: 5px;">9</button></div></div>
+        
+        <div style="gap: 5px;"><div><button style="background-color: #fdce41; margin-top: 5px;">+</button></div><br>
+        <div><button style="background-color: #ccc;">-</button></div><br>
+        <div><button style="background-color: #fac; margin-bottom: 5px;">*</button></div></div>
+        <br><br>
+        <button type="submit" style="height: 40px; margin-top: 30px;">submit</button>
+        <br>
         
     </div>
-    <br><br>
+    <!-- display -->
+    <div style="margin-left: 500px;">
+        <textarea name="display" id="" cols="30" rows="10"></textarea>
+    </div>
 
-    <div>
+    <div style="margin-left: 400px; font-size: large; font-weight: bold;">
         My result is : 
     </div>
 
