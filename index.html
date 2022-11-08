@@ -27,19 +27,24 @@
         <div><button style="background-color: #ccc;">-</button></div><br>
         <div><button style="background-color: #fac; margin-bottom: 5px;">*</button></div></div>
         <br><br>
-        <button type="submit" style="height: 40px; margin-top: 30px;">submit</button>
+        <button style="height: 40px; margin-top: 30px;" onclick="result()">submit</button>
         <br>
-        
-    </div>
-    <!-- display -->
-    <div style="margin-left: 500px;">
-        <textarea name="display" id="" cols="30" rows="10"></textarea>
+    </div>    
+    <div style="display: grid; gap: 10px; ">
+        <!-- display -->
+        <div style="margin-left: 500px;">
+            <textarea name="display" id="number1" cols="10" rows="3"></textarea>
+        </div>
+        <!-- display -->
+        <div style="margin-left: 500px;">
+            <textarea name="display" id="number2" cols="10" rows="3"></textarea>
+        </div>
     </div>
 
-    <div style="margin-left: 400px; font-size: large; font-weight: bold;">
+    <div id='result' style="margin-left: 400px; font-size: large; font-weight: bold;">
         My result is : 
     </div>
 
-<script src="javascriptColorFlipper.js"></script>
+<script src="javascript.js"></script>
 </body>
 </html>
